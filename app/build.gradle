@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "ma.dexter"
-        minSdk 26
+        minSdk 21
         targetSdk 31
         versionCode 1
         versionName "1.0"
@@ -112,9 +112,9 @@ dependencies {
     implementation 'com.github.java-decompiler:jd-core:fafc656826'
 
     // jadx
-    implementation files("libs/jadx/jadx-core-v1.2.0.jar")
-    implementation files("libs/jadx/jadx-plugins-api-v1.2.0.jar")
-    implementation files("libs/jadx/jadx-dex-input-v1.2.0.jar")
+    implementation files("libs/jadx/jadx-core-v0.9.0.jar")
+    implementation files("libs/jadx/jadx-plugins-api-v0.9.0.jar")
+    implementation files("libs/jadx/jadx-dex-input-v0.9.0.jar")
     implementation files("libs/jadx/android-29-clst.jar")
     implementation 'org.slf4j:slf4j-api:1.7.32' // 1.7.30
 }
